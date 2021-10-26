@@ -257,7 +257,14 @@ p {
 .skillset .theme-progress-bar {
   background: #68bacd;
 }
-
+.projects-section .item {
+  display: flex;
+  justify-content: space-between;
+}
+.projects-section .item img {
+  width: 100px;
+  height: 50px;
+}
 .footer {
   padding: 30px;
   padding-top: 60px;
